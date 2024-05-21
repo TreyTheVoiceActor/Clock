@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock with Features</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <div class="container">
+        <div id="clock" class="box"></div>
+        <button id="toggle-seconds">Toggle or Remove Seconds</button>
+        <br>
+        <input type="date" id="target-date">
+        <button id="set-countdown">Set Countdown</button>
+        <button id="back-to-clock">Back to Clock</button>
+        <br>
+        <button id="get-joke">Get Clock Joke</button>
+        <div id="joke-text" class="box"></div>
+        <br>
+        <select id="background-color">
+            <option value="darkred">Red</option>
+            <option value="pink">Pink</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="purple">Purple</option>
+            <option value="grey">Grey</option>
+            <option value="yellow">Yellow</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

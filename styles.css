@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkred;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#clock {
+    font-size: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button, input[type="date"], select {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="date"], select {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+#joke-text {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
